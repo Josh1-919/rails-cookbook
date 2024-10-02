@@ -24,6 +24,6 @@ end
 
   private
   def bookmark_params
-    params.require(:bookmark).permit(:comment, :recipe_id)
+    params.require(:bookmark).permit(:comment, :recipe_id,)
   end
 end

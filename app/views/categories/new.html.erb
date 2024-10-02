@@ -2,6 +2,7 @@
 <h1>create a new category</h1>
 <%= simple_form_for @category do |f| %>
   <%= f.input :name, placeholder: "type your category here ..." %>
+  <%= f.input :photo, as: :file  %>
   <%= f.submit %>
 <% end %>
 </div>
