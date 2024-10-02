@@ -21,7 +21,7 @@
         <div>
           <h2><%= bookmark.recipe.name %></h2>
           <hr class="line">
-          <p class="description"><%= bookmark.recipe.description %></p>
+          <p class="description"><%= bookmark.recipe.description.truncate(350) %></p>
             <div class ="rating">
             <h2>"<%= bookmark.comment %>"</h2>
             <h2>Rating: <%= bookmark.recipe.rating %><h2>
