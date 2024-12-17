@@ -23,7 +23,7 @@ gem "simple_form"
 # gem "kredis"
 gem "bootstrap", "~> 5.2"
 gem "autoprefixer-rails"
-gem "font-awesome-sass", "~> 6.1"
+gem "font-awesome-sass", "~> 6.7"
 gem "sassc-rails"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
